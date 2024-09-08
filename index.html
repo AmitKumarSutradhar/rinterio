@@ -28,7 +28,7 @@
         <nav>
             <div class="container mx-auto">
                 <div class="navbar">
-                    <div class="navbar-start">
+                    <div class="navbar-start ">
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                                 <svg
@@ -70,7 +70,7 @@
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="navbar-end">
+                    <div class="navbar-end lg:flex hidden">
                         <div class="bg-[#fff] p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#737373">
                                 <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
@@ -128,7 +128,7 @@
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
                 <div class="">
                     <div class="">
-                        <button class="btn bg-[#D0F2AA] rounded-full">
+                        <button class="btn bg-[#fff] rounded-full my-1 py-1">
                            <img src="assets/right-arrow.png" alt="">
                            About Us
                           </button>
@@ -173,18 +173,18 @@
         <!-- About Us Section End -->
 
         <!-- How we works Section End -->
-        <section id="how-we-works">
+        <section id="how-we-works" class="py-32">
             <div class="container mx-auto">
                 <p></p>
                 <h2 class="text-4xl font-bold text-center">Our Works Process</h2>
-                <p class="text-base text-center">The barn house captivates with its blend of rustic charm and modern.</p>
+                <p class="text-base text-center py-10">The barn house captivates with its blend of rustic charm and modern.</p>
                 <div class="grid md:grid-cols-4 grid-cols-1 gap-5">
                     <div class="card bg-[#E7C1D3] w-96 shadow-xl">
                         <figure class="px-10 pt-10 justify-start">
                           <img
                             src="assets/concept.png"
                             alt="Shoes"
-                            class="rounded-xl" />
+                            class="rounded-xl justify-start" />
                         </figure>
                         <div class="card-body items-center text-center">
                           <h2 class="card-title">Concept</h2>
@@ -237,22 +237,22 @@
         <!-- How we works Section End -->
     
         <!-- Contact Us Section Start  -->
-        <section id="contact-form" style="background-image: url('assets/bg.jpg');">
-            <div class="container mx-auto">
+        <section id="contact-form" class="" style="background-image: url('assets/bg.jpg');">
+            <div class="container mx-auto md:py-36 py-9">
                 <p></p>
                 <h2 class="text-4xl font-bold text-center">Let’s Discuss Next Project</h2>
-                <p class="text-base text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="text-base text-center my-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 <form action="#">
-                    <div class="grid grid-cols-2 gap-5">
-                        <input type="text" placeholder="First Name*" class="input input-bordered w-full mb-5" />
-                        <input type="text" placeholder="Last Name*" class="input input-bordered w-full mb-5" />
+                    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+                        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full w-full mb-5" />
+                        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full w-full mb-5" />
                     </div>
-                    <div class="grid grid-cols-2 gap-5">
-                        <input type="text" placeholder="Phone Nuber*" class="input input-bordered w-full mb-5" />
-                        <input type="text" placeholder="Email Address" class="input input-bordered w-full mb-5" />
+                    <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+                        <input type="text" placeholder="Phone Nuber*" class="input input-bordered rounded-full w-full mb-5" />
+                        <input type="text" placeholder="Email Address" class="input input-bordered rounded-full w-full mb-5" />
                     </div>
-                    <textarea class="textarea textarea-bordered w-full" placeholder="Bio"></textarea>
-                    <div class="">
+                    <textarea class="textarea textarea-bordered w-full h-60" placeholder="Bio"></textarea>
+                    <div class="mt-5">
                         <button class="btn bg-[#D0F2AA] rounded-full w-full">
                             Send Mail
                            <img src="assets/arrow-up-right.png" alt="">
